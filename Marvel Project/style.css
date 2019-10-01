@@ -1,0 +1,59 @@
+#gameArea {
+    background-color:gray;  /*image: url("space1.gif");*/
+    width: 800px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+    perspective-origin: 0 0;
+     
+}
+
+#player-controlled-ship{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 180px;
+    
+}
+
+.laser {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+    perspective-origin: 0 0;
+  }
+  
+  .parallax-child {
+    transform-origin: 0 0;
+    transform: translateZ(-2px) scale(3);
+  }
+
+
+
+
+
+
+  
+.monster-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-out;
+  }
+  
+  .dead-monster {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    opacity: 0;
+  
+  }
